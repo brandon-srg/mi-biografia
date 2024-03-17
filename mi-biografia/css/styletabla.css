@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing:border-box ;
+font-family: cursive;
+text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+nav {
+    background-color: #e38c76;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+}
+
+.btn-a {
+background-color: #858f9e;
+border-radius: 5px;
+color: white;
+width: 150px;
+margin-left: 10px;
+text-align: center;
+box-shadow: 5px 5px 5px;
+}
+
+body{
+    background-image: url(images/Imagen\ de\ WhatsApp\ 2024-02-19\ a\ las\ 13.04.44_99f7530f.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    
+    border: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+table{
+    color: #fff;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead {
+    background: rgba(147, 156, 160, 0.4);
+}
+
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    border-bottom: solid 1px rgba (255, 255, 255, 0.2);
+}
+
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: rgba(147, 156, 160, 0.4);
+}
+
